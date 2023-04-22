@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Theme",
+  "version": "1.0",
+
+  "description": "Adds minimal themes to many websites.",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.fr/*", "*://*.amazon.ca/*", "*://*.amazon.com.mx/*","*://*.amazon.de/*","*://*.amazon.es/*","*://*.amazon.it/*","*://*.amazon.co.jp/*","*://*.amazon.in/*","*://*.amazon.com.au/*","*://*.amazon.cn/*"],
+      "js": ["theme.js"]
+    }
+  ]
+
+}
