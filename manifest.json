@@ -3,7 +3,7 @@
   "name": "Amazon Theme",
   "version": "1.0",
 
-  "description": "Adds minimal themes to many websites.",
+  "description": "Makes the Amazon website look nice(r).",
 
   "icons": {
     "48": "icon.png"
